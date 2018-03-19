@@ -40,7 +40,7 @@ instructions for each function are in the header file, `automata.h`.
 
 Build the tests with `make` (it is the default target) and run the
 tests either using the python script (`python grade.py automata_test`)
-or directly with `./automata_test.
+or directly with `./automata_test`.
 
 ## Running The Cellular Automata Program
 
