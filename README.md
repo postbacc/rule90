@@ -24,8 +24,12 @@ one of the cell's neighbors from the previous generation is on.**
 
 So to calculate (say) the next value of cell 8, we have to look at the
 current value of cells 7, 8, and 9. Actually, the current value of
-cell 8 isn't needed, but those three (cels 7, 8, 9) form the
+cell 8 isn't needed, but those three (cells 7, 8, 9) form the
 "neighborhood" of interest. 
+
+The tricky thing is that we will treat the generation strings as
+circular. That means the element to the left of cell zero is the last
+cell; the element to the right of the last cell is at index zero.
 
 ## What To Implement
 
